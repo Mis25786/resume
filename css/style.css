@@ -21,18 +21,15 @@ h4 {
 
 ul,
 li {
-  margin: 0 0;
+  margin: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-ul {
-  list-style: none;
 }
 
 /* ==================== */
@@ -53,16 +50,18 @@ ul {
 .photo {
   padding-top: 20px;
   width: 300px;
+  padding-left: 30px;
 }
 
 .email,
 .tel,
 .git,
-.telegram {
+.telegram,
+.linkedin {
   color: white;
 }
 
-.web {
+.projects-link {
   color: black;
 }
 
@@ -107,7 +106,10 @@ li {
 }
 
 .summary {
-  padding-top: 70px;
+  margin: 0;
+  padding-top: 95px;
+  width: 500px;
+  padding-left: 35px;
 }
 
 .section-title {
