@@ -1,5 +1,4 @@
 body {
-  /* font-family: "Bodoni Moda", serif; */
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -16,7 +15,6 @@ h3,
 h4 {
   padding: 0;
   margin: 0;
-  text-decoration: none;
 }
 
 ul,
@@ -43,8 +41,6 @@ img {
   background-color: #fff;
   padding-left: 15px;
   padding-right: 15px;
-
-  /* justify-content: space-evenly; */
 }
 
 .photo {
@@ -63,6 +59,11 @@ img {
 
 .projects-link {
   color: black;
+}
+
+.github-link {
+  display: flex;
+  gap: 15px;
 }
 
 .box-1 {
@@ -126,4 +127,10 @@ li {
 
 .project-title {
   padding-bottom: 10px;
+}
+
+.work-information {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
 }
