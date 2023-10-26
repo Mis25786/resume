@@ -45,8 +45,8 @@ img {
 
 .photo {
   padding-top: 20px;
-  width: 300px;
-  padding-left: 30px;
+  max-height: 320px;
+  padding-left: 8px;
 }
 
 .email,
